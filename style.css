@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+header {
+  background-color: #55a63b;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.banner {
+  background-image: url("farm.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 4rem;
+  padding-top: 150px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#who-we-are .content p{
+  color: #dbdbdb;
+}
+
+.content {
+  margin: 4rem;
+}
+
+.content h2,
+.contact-box form h2 {
+  font-size: 3rem;
+  -webkit-text-stroke: 0.1rem #fff;
+  color: transparent;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  background-color: #081b292d;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.service h3{
+  font-size: 1.6rem;
+}
+
+
+#get-in-touch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.contact-box{
+  display: block;
+  padding: 3rem;
+
+}
+
+.contact-box h2 {
+  font-size: 4.5rem;
+}
+
+.contact-box form {
+  background: #081b292d;
+  padding: 1.5rem 3.5rem 3.5rem;
+  border-radius: .6rem;
+  text-align: center;
+  border: .15rem solid #55a63b;
+}
+
+.contact-box .field-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.contact-box .field-box input,
+.contact-box .field-box textarea {
+  padding: .5rem;
+  background: #3239464b;
+  border: 0.15rem solid #323946;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  outline: none;
+  color: #fff;
+}
+
+.contact-box .field-box textarea {
+  grid-column: 1 / -1;
+  height: 15rem;
+  resize: none;
+}
+
+.contact-box .field-box input:focus,
+.contact-box .field-box textarea:focus {
+  border-color: #0bad0b;
+}
+
+.contact-box .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  padding: .5rem 2rem;
+  background: #55a63b;
+  border: 0.2rem solid #55a63b;
+  border-radius: 4rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #55a63b;
+  background: transparent;
+  box-shadow: none;
+}
